@@ -1,0 +1,32 @@
+{
+  "appError": "There was an error creating this app...",
+  "billingDetails": "Billing Details",
+  "billingForm": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "country": "Country/Region",
+    "state": "State",
+    "email": "Email",
+    "referral": "Referral (optional)"
+  },
+  "errors": {
+    "required": "This is required",
+    "phone": "Phone is incorrect",
+    "email": "Email is incorrect",
+    "minLetters": "At least 2 letters are required",
+    "onlyEnglish": "This must contain only English letters",
+    "coupon": "Invalid coupon"
+  },
+  "orderDetails": {
+    "yourOrder": "Your Order",
+    "product": "Product",
+    "amount": "Amount",
+    "coupons": "Coupons",
+    "haveCoupon": "Have a coupon?",
+    "code": "Code",
+    "total": "Total"
+  },
+  "terms": "I have read and agreed to the websites",
+	"termsLink": "terms and conditions",
+  "placeOrder": "Place Order"
+}
