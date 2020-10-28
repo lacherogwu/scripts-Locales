@@ -10,6 +10,7 @@ node export
 * Copy the default data to /import/data.json
 * Copy the values to /import/source.txt
 * Copy the translated values to /import/translated.txt
+* Set the locale file name inside import.js in the **lang** constant
 ```
 node import
 ```
