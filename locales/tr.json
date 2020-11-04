@@ -1,0 +1,15 @@
+{
+    "subject": "Son {{ educSite }} faturanız",
+    "header": "Sipariş faturanız",
+    "welcome": "Merhaba",
+    "mainContent": "{{ educSite }} web sitesinde sizin için bir sipariş oluşturuldu. Faturanız, uygun olduğunuzda ödeme yapabilmeniz için bir bağlantı ile birlikte aşağıdadır:",
+    "payNow": "Bu sipariş için ödeme yap",
+    "order": "Sipariş",
+    "product": "Ürün",
+    "quantity": "Miktar",
+    "price": "Fiyat",
+    "packageName": "Eğitim Paketi",
+    "total": "Toplam",
+    "billingAddress": "Fatura adresi",
+    "footer": "{{ educSite }} web sitesini kullandığınız için teşekkürler"
+}

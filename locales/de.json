@@ -1,0 +1,15 @@
+{
+    "subject": "Ihre letzte {{ educSite }} Rechnung",
+    "header": "Ihre Rechnung für die Bestellung",
+    "welcome": "Hallo!",
+    "mainContent": "Eine Rechnung wurde für Sie erstellt am {{ educSite }}. Ihre Rechnung sowie einen Link für die Bezahlung finden Sie unten:",
+    "payNow": "Für diese Bestellung bezahlen",
+    "order": "Bestellung",
+    "product": "Produkt",
+    "quantity": "Menge",
+    "price": "Kurs",
+    "packageName": "Bildungspaket",
+    "total": "Gesamt",
+    "billingAddress": "Rechnungsadresse",
+    "footer": "Vielen Dank für das Verwenden von"
+}

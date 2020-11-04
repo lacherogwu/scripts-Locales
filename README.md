@@ -1,18 +1,16 @@
 # Usage
 
 ## Export
-Copy the data you want to export to /export/data.json.
+Copy the data you want to export to ./en.json.
 ```
 node export
 ```
 
 ## Import
-* Copy the default data to /import/data.json
-* Copy the values to /import/source.txt
-* Copy the translated values to /import/translated.txt
-* Set the locale file name inside import.js in the **lang** constant
+* Copy your EN locale json file to ./en.json
+* Create a csv file with all the data same with the format as file-sample.csv
 ```
-node import
+node .
 ```
 
 **Enjoy!**

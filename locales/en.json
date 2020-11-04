@@ -1,0 +1,15 @@
+{
+    "subject": "Your latest {{ educSite }} invoice",
+    "header": "Your invoice for order",
+    "welcome": "Hi",
+    "mainContent": "An order has been created for you on {{ educSite }}. Your invoice is below, with a link to make payment when you’re ready:",
+    "payNow": "Pay for this order",
+    "order": "Order",
+    "product": "Product",
+    "quantity": "Quantity",
+    "price": "Price",
+    "packageName": "Educational Package",
+    "total": "Total",
+    "billingAddress": "Billing address",
+    "footer": "Thanks for using"
+}

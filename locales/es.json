@@ -1,0 +1,15 @@
+{
+    "subject": "Tu última factura en {{ educSite }}",
+    "header": "Tu factura del pedido",
+    "welcome": "Hola:",
+    "mainContent": "Se ha creado un pedido en tu nombre en {{ educSite }} {{ educSite }} . Abajo tienes tu factura, con un enlace para hacer el pago cuando estés listo:",
+    "payNow": "Pagar por este pedido",
+    "order": "Pedido",
+    "product": "Producto",
+    "quantity": "Cantidad",
+    "price": "Precio",
+    "packageName": "Paquete didáctico",
+    "total": "Total",
+    "billingAddress": "Dirección de facturación",
+    "footer": "Gracias por utilizar"
+}

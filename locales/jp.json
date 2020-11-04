@@ -1,0 +1,15 @@
+{
+    "subject": "あなたの最新の {{ educSite }} 請求書",
+    "header": "注文の請求書",
+    "welcome": "こんにちは",
+    "mainContent": "{{ educSite  }}に注文が作成されました。請求書は以下の通りで、支払い用リンクも表示されますので、準備が整いましたらお支払いください。",
+    "payNow": "この注文に対する支払を行なう",
+    "order": "注文",
+    "product": "商品",
+    "quantity": "量",
+    "price": "価格",
+    "packageName": "教育パッケージ",
+    "total": "合計",
+    "billingAddress": "請求先住所",
+    "footer": "ご利用いただきありがとうございます"
+}

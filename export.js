@@ -1,14 +1,8 @@
-const data = require('./export/data.json');
 const fs = require('fs');
+const en = require('./en.json');
+const { getValues } = require('./utils');
 
-const list = ['EN'];
+const file = ['EN', ...getValues(en)];
 
-const pushToList = data => {
-    Object.values(data).forEach(v => {
-        if(typeof v === 'object') return pushToList(v)
-        list.push(v);
-    });
-};
-
-pushToList(Object.values(data));
-fs.writeFileSync('export/translations.csv', list.join('\n'));
+fs.writeFileSync('translations.csv', file.join('\n'));
+console.log('Done! ./translations.csv')
