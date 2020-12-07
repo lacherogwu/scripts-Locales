@@ -1,0 +1,81 @@
+{
+  "loginPage": {
+    "login": "登陆",
+    "cancel": "取消",
+    "forgotYour密码": "忘记密码？",
+    "resetPassword": "重置密码？"
+  },
+  "nav": {
+    "welcome": "欢迎",
+    "signOut": "登出",
+    "myAccount": "我的账户",
+    "coursesList": "课程列表",
+    "updateProfile": "更新个人资料"
+  },
+  "inputs": {
+    "errors": {
+      "required": "必填",
+      "email": "电子邮件必须有效"
+    },
+    "email": {
+      "label": "电子邮件或用户名",
+      "hint": "请输入您的账户电邮地址"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "请输入您的账户密码"
+    }
+  },
+  "profile": {
+    "title": "更新个人资料",
+    "updatePassword": "更新密码",
+    "updateYourPassword": "更新您的密码",
+    "newPassword": "新密码",
+    "oldPassword": "旧密码"
+  },
+  "assets": {
+    "glossary": {
+      "title": "词汇表"
+    },
+    "marketWatchBonds": {
+      "title": "市场观察债券"
+    },
+    "marketWatchCommodities": {
+      "title": "市场观察大宗商品"
+    },
+    "marketWatchStocks": {
+      "title": "市场观察股票"
+    },
+    "marketWatchCurrencies": {
+      "title": "市场观察货币"
+    },
+    "videoAcademy": {
+      "title": "视频学院"
+    },
+    "calendar": {
+      "title": "日历"
+    },
+    "marketNews": {
+      "title": "市场新闻"
+    },
+    "currencyForecast": {
+      "title": "货币预测"
+    },
+
+    "educationMaterials": {
+      "title": "教育资料"
+    },
+    "marketUpdates": {
+      "title": "市场更新"
+    },
+    "dailySignals": {
+      "title": "每日信号"
+    },
+    "ebooks": {
+      "title": "电子书"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "必填"
+  }
+}

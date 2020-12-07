@@ -1,15 +1,81 @@
 {
-    "subject": "Votre dernière  {{ educSite }} facture",
-    "header": "Votre facture de commande",
-    "welcome": "Bonjour",
-    "mainContent": "Une commande a été créée pour vous sur {{ educSite }}. Votre facture se trouve ci-dessous, avec un lien vous permettant d'effectuer le paiement dès que vous êtes prêt :",
-    "payNow": "Payer cette commande",
-    "order": "Commande",
-    "product": "Produit",
-    "quantity": "Quantité",
-    "price": "Prix",
-    "packageName": "Kit pédagogique",
-    "total": "Total",
-    "billingAddress": "Adresse de facturation",
-    "footer": "Merci d'avoir utilisé"
+  "loginPage": {
+    "login": "Connexion",
+    "cancel": "Annuler",
+    "forgotYourMot de passe": "Vous avez oublié votre mot de passe ?",
+    "resetPassword": "Réinitialiser le mot de passe"
+  },
+  "nav": {
+    "welcome": "Bienvenue",
+    "signOut": "Déconnexion",
+    "myAccount": "Mon compte",
+    "coursesList": "Liste des cours",
+    "updateProfile": "Mise à jour du profil"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Obligatoire",
+      "email": "L'email doit être valide"
+    },
+    "email": {
+      "label": "Email ou Nom d'Utilisateur",
+      "hint": "Veuillez entrer l'email de votre compte"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Veuillez entrer le mot de passe de votre compte"
+    }
+  },
+  "profile": {
+    "title": "Mise à jour du profil",
+    "updatePassword": "Mise à jour du mot de passe",
+    "updateYourPassword": "Mettre à jouer votre mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "oldPassword": "Ancien mot de passe"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Glossaire"
+    },
+    "marketWatchBonds": {
+      "title": "Obligations de surveillance du marché"
+    },
+    "marketWatchCommodities": {
+      "title": "Surveillance du marché des matières premières"
+    },
+    "marketWatchStocks": {
+      "title": "Stocks de surveillance des  marchés"
+    },
+    "marketWatchCurrencies": {
+      "title": "Monnaies de surveillance du marché"
+    },
+    "videoAcademy": {
+      "title": "Académie de la vidéo"
+    },
+    "calendar": {
+      "title": "Calendrier"
+    },
+    "marketNews": {
+      "title": "Nouvelles du marché"
+    },
+    "currencyForecast": {
+      "title": "Prévisions monétaires"
+    },
+
+    "educationMaterials": {
+      "title": "Matériel pédagogique"
+    },
+    "marketUpdates": {
+      "title": "Mises à jour des marchés"
+    },
+    "dailySignals": {
+      "title": "Signaux quotidiens"
+    },
+    "ebooks": {
+      "title": "Livres électroniques"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Obligatoire"
+  }
 }

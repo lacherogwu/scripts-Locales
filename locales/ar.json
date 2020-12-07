@@ -1,15 +1,81 @@
 {
-    "subject": "أحدث فاتورة  {{ educSite }} لديك",
-    "header": "فاتورتك للطلب رقم",
+  "loginPage": {
+    "login": "تسجيل الدخول",
+    "cancel": "إلغاء",
+    "forgotYourPasswort": "هل نسيت كلمة المرور؟",
+    "resetPassword": "إعادة تعيين كلمة المرور"
+  },
+  "nav": {
     "welcome": "مرحبًا",
-    "mainContent": "تم إنشاء طلب لك مقابل {{ educSite }}. الفاتورة الخاصة بك تجدها أدناه، مع رابط لإجراء عملية الدفع حين تكون جاهزاً لذلك:",
-    "payNow": "إدفع لهذا الطلب",
-    "order": "الطلب",
-    "product": "المنتج",
-    "quantity": "الكمية",
-    "price": "السعر",
-    "packageName": "الحزمة التعليمية",
-    "total": "الإجمالي",
-    "billingAddress": "عنوان الفاتورة",
-    "footer": "شكرا لك على استخدام  {{ educSite }}"
+    "signOut": "تسجيل الخروج",
+    "myAccount": "حسابي",
+    "coursesList": "قائمة الدورات",
+    "updateProfile": "تحديث الملف التعريفي"
+  },
+  "inputs": {
+    "errors": {
+      "required": "مطلوب",
+      "email": "يجب أن يكون البريد الإلكتروني صالحًا"
+    },
+    "email": {
+      "label": "البريد الإلكتروني أو اسم المستخدم",
+      "hint": "يرجى إدخال عنوان البريد الإلكتروني لحسابك"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "يرجى إدخال كلمة المرور لحسابك"
+    }
+  },
+  "profile": {
+    "title": "تحديث الملف التعريفي",
+    "updatePassword": "تحديث كلمة المرور",
+    "updateYourPassword": "تحديث كلمة مرورك",
+    "newPassword": "كلمة المرور الجديدة",
+    "oldPassword": "كلمة المرور القديمة"
+  },
+  "assets": {
+    "glossary": {
+      "title": "قاموس المصطلحات"
+    },
+    "marketWatchBonds": {
+      "title": "متابعة السوق: السندات"
+    },
+    "marketWatchCommodities": {
+      "title": "متابعة السوق: السلع"
+    },
+    "marketWatchStocks": {
+      "title": "متابعة السوق: الأسهم"
+    },
+    "marketWatchCurrencies": {
+      "title": "متابعة السوق: العملات"
+    },
+    "videoAcademy": {
+      "title": "أكاديمية الفيديو"
+    },
+    "calendar": {
+      "title": "التقويم"
+    },
+    "marketNews": {
+      "title": "أخبار السوق"
+    },
+    "currencyForecast": {
+      "title": "توقعات العملات"
+    },
+
+    "educationMaterials": {
+      "title": "المواد التعليمية"
+    },
+    "marketUpdates": {
+      "title": "تحديثات السوق"
+    },
+    "dailySignals": {
+      "title": "الإشارات اليومية"
+    },
+    "ebooks": {
+      "title": "الكتب الإلكترونية"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "مطلوب"
+  }
 }

@@ -1,0 +1,14 @@
+ar
+az
+de
+en
+es
+fr
+it
+jp
+pt
+ru
+th
+tr
+ua
+zh

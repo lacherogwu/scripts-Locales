@@ -1,15 +1,81 @@
 {
-    "subject": "Your latest {{ educSite }} invoice",
-    "header": "Your invoice for order",
-    "welcome": "Hi",
-    "mainContent": "An order has been created for you on {{ educSite }}. Your invoice is below, with a link to make payment when you’re ready:",
-    "payNow": "Pay for this order",
-    "order": "Order",
-    "product": "Product",
-    "quantity": "Quantity",
-    "price": "Price",
-    "packageName": "Educational Package",
-    "total": "Total",
-    "billingAddress": "Billing address",
-    "footer": "Thanks for using"
+  "loginPage": {
+    "login": "Login",
+    "cancel": "Cancel",
+    "forgotYourPassword": "Forgot your password?",
+    "resetPassword": "Reset Password"
+  },
+  "nav": {
+    "welcome": "Welcome",
+    "signOut": "Sign Out",
+    "myAccount": "My Account",
+    "coursesList": "Courses List",
+    "updateProfile": "Update Profile"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Required",
+      "email": "E-mail must be valid"
+    },
+    "email": {
+      "label": "Email or Username",
+      "hint": "Please enter your account email address"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Please enter your account password"
+    }
+  },
+  "profile": {
+    "title": "Update Profile",
+    "updatePassword": "Update Password",
+    "updateYourPassword": "Update your password",
+    "newPassword": "New Password",
+    "oldPassword": "Old Password"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Glossary"
+    },
+    "marketWatchBonds": {
+      "title": "Market Watch Bonds"
+    },
+    "marketWatchCommodities": {
+      "title": "Market Watch Commodities"
+    },
+    "marketWatchStocks": {
+      "title": "Market Watch Stocks"
+    },
+    "marketWatchCurrencies": {
+      "title": "Market Watch Currencies"
+    },
+    "videoAcademy": {
+      "title": "Video Academy"
+    },
+    "calendar": {
+      "title": "Calendar"
+    },
+    "marketNews": {
+      "title": "Market News"
+    },
+    "currencyForecast": {
+      "title": "Currency Forecast"
+    },
+
+    "educationMaterials": {
+      "title": "Education Materials"
+    },
+    "marketUpdates": {
+      "title": "Market Updates"
+    },
+    "dailySignals": {
+      "title": "Daily Signals"
+    },
+    "ebooks": {
+      "title": "E-books"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Required"
+  }
 }

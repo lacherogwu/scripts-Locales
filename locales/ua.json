@@ -1,15 +1,81 @@
 {
-    "subject": "Ваш останній {{ educSite }} рахунок",
-    "header": "Ваш рахунок за замовлення",
-    "welcome": "Привіт!",
-    "mainContent": "Замовлення було створене для вас на {{ educSite }}. Ваш рахунок знаходиться нижче з посиланням на проведення платежу, коли ви будете готові:",
-    "payNow": "Оплатити замовлення",
-    "order": "Замовлення",
-    "product": "Продукт",
-    "quantity": "Кількість",
-    "price": "Ціна",
-    "packageName": "Навчальний пакет",
-    "total": "Всього",
-    "billingAddress": "Платіжні реквізити",
-    "footer": "Дякуємо за використання!"
+  "loginPage": {
+    "login": "Вхід",
+    "cancel": "Відміна",
+    "forgotYourПароль": "Забули пароль?",
+    "resetPassword": "Скинути пароль"
+  },
+  "nav": {
+    "welcome": "Вітаємо",
+    "signOut": "Вихід",
+    "myAccount": "Мій рахунок",
+    "coursesList": "Перелік курсів",
+    "updateProfile": "Оновити профіль"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Обов'язково",
+      "email": "Електронна адреса має бути дійсною"
+    },
+    "email": {
+      "label": "Електронна адреса або ім'я користувача",
+      "hint": "Будь ласка, введіть електронну адресу від вашого аккаунту"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Будь ласка, введіть пароль від вашого аккаунту"
+    }
+  },
+  "profile": {
+    "title": "Оновити профіль",
+    "updatePassword": "Оновити пароль",
+    "updateYourPassword": "Оновіть ваш пароль",
+    "newPassword": "Новий пароль",
+    "oldPassword": "Старий пароль"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Словник"
+    },
+    "marketWatchBonds": {
+      "title": "Огляд ринку: Облігації"
+    },
+    "marketWatchCommodities": {
+      "title": "Огляд ринку: Сировинні товари"
+    },
+    "marketWatchStocks": {
+      "title": "Огляд ринку: Акції"
+    },
+    "marketWatchCurrencies": {
+      "title": "Огляд ринку: Валюти"
+    },
+    "videoAcademy": {
+      "title": "Відео-академія"
+    },
+    "calendar": {
+      "title": "Календар"
+    },
+    "marketNews": {
+      "title": "Новини ринку"
+    },
+    "currencyForecast": {
+      "title": "Прогноз валют"
+    },
+
+    "educationMaterials": {
+      "title": "Навчальні матеріали"
+    },
+    "marketUpdates": {
+      "title": "Оновлення ринку"
+    },
+    "dailySignals": {
+      "title": "Щоденні сигнали"
+    },
+    "ebooks": {
+      "title": "Електронні книги"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Обов'язково"
+  }
 }

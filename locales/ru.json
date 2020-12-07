@@ -1,15 +1,81 @@
 {
-    "subject": "Ваш последний {{ educSite }} счет",
-    "header": "Ваш счет за заказ",
-    "welcome": "Привет!",
-    "mainContent": "Заказ был создан для вас на {{ educSite }}. Ваш счет находится ниже со ссылкой на проведение оплаты, когда вы будете готовы:",
-    "payNow": "Оплатить заказ",
-    "order": "Заказ",
-    "product": "Продукт",
-    "quantity": "Количество",
-    "price": "Цена",
-    "packageName": "Образовательный пакет",
-    "total": "Всего",
-    "billingAddress": "Платежные реквизиты",
-    "footer": "Спасибо за использование!"
+  "loginPage": {
+    "login": "Вход",
+    "cancel": "Отмена",
+    "forgotYourПароль": "Забыли пароль?",
+    "resetPassword": "Сбросить пароль"
+  },
+  "nav": {
+    "welcome": "Добро пожаловать",
+    "signOut": "Выход",
+    "myAccount": "Мой счет",
+    "coursesList": "Список курсов",
+    "updateProfile": "Обновить профиль"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Обязательно",
+      "email": "Электронный адрес должен быть действующим"
+    },
+    "email": {
+      "label": "Электронный адрес или имя пользователя",
+      "hint": "Пожалуйста, введите электронный адрес от вашего аккаунта"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Пожалуйста, введите пароль от вашего аккаунта"
+    }
+  },
+  "profile": {
+    "title": "Обновить профиль",
+    "updatePassword": "Обновить пароль",
+    "updateYourPassword": "Обновите ваш пароль",
+    "newPassword": "Новый пароль",
+    "oldPassword": "Старый пароль"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Словарь"
+    },
+    "marketWatchBonds": {
+      "title": "Обзор рынка: Облигации"
+    },
+    "marketWatchCommodities": {
+      "title": "Обзор рынка: Сырьевые товары"
+    },
+    "marketWatchStocks": {
+      "title": "Обзор рынка: Акции"
+    },
+    "marketWatchCurrencies": {
+      "title": "Обзор рынка: Валюты"
+    },
+    "videoAcademy": {
+      "title": "Видео-академия"
+    },
+    "calendar": {
+      "title": "Календарь"
+    },
+    "marketNews": {
+      "title": "Новости рынка"
+    },
+    "currencyForecast": {
+      "title": "Прогноз валют"
+    },
+
+    "educationMaterials": {
+      "title": "Обучающие материалы"
+    },
+    "marketUpdates": {
+      "title": "Обновления рынка"
+    },
+    "dailySignals": {
+      "title": "Ежедневные сигналы"
+    },
+    "ebooks": {
+      "title": "Электронные книги"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Обязательно"
+  }
 }

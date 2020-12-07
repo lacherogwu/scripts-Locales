@@ -1,15 +1,81 @@
 {
-    "subject": "あなたの最新の {{ educSite }} 請求書",
-    "header": "注文の請求書",
-    "welcome": "こんにちは",
-    "mainContent": "{{ educSite  }}に注文が作成されました。請求書は以下の通りで、支払い用リンクも表示されますので、準備が整いましたらお支払いください。",
-    "payNow": "この注文に対する支払を行なう",
-    "order": "注文",
-    "product": "商品",
-    "quantity": "量",
-    "price": "価格",
-    "packageName": "教育パッケージ",
-    "total": "合計",
-    "billingAddress": "請求先住所",
-    "footer": "ご利用いただきありがとうございます"
+  "loginPage": {
+    "login": "ログイン",
+    "cancel": "キャンセル",
+    "forgotYourパスワード": "パスワードをお忘れですか？",
+    "resetPassword": "パスワードのリセット"
+  },
+  "nav": {
+    "welcome": "ようこそ",
+    "signOut": "サインアウト",
+    "myAccount": "マイアカウント",
+    "coursesList": "コース一覧",
+    "updateProfile": "プロファイルの更新"
+  },
+  "inputs": {
+    "errors": {
+      "required": "必須",
+      "email": "有効な電子メールをご提示ください"
+    },
+    "email": {
+      "label": "電子メールまたはユーザー名",
+      "hint": "アカウントの電子メールアドレスを入力してください"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "口座のパスワードを入力してください"
+    }
+  },
+  "profile": {
+    "title": "プロファイルの更新",
+    "updatePassword": "パスワードの更新",
+    "updateYourPassword": "パスワードを更新する",
+    "newPassword": "新しいパスワード",
+    "oldPassword": "古いパスワード"
+  },
+  "assets": {
+    "glossary": {
+      "title": "用語集"
+    },
+    "marketWatchBonds": {
+      "title": "マーケットウォッチ・債券"
+    },
+    "marketWatchCommodities": {
+      "title": "マーケットウォッチ・コモディティ"
+    },
+    "marketWatchStocks": {
+      "title": "マーケットウォッチ・株"
+    },
+    "marketWatchCurrencies": {
+      "title": "マーケットウォッチ・通貨"
+    },
+    "videoAcademy": {
+      "title": "ビデオアカデミー"
+    },
+    "calendar": {
+      "title": "カレンダー"
+    },
+    "marketNews": {
+      "title": "マーケットニュース"
+    },
+    "currencyForecast": {
+      "title": "通貨予測"
+    },
+
+    "educationMaterials": {
+      "title": "教材"
+    },
+    "marketUpdates": {
+      "title": "市場の最新情報"
+    },
+    "dailySignals": {
+      "title": "デイリーシグナル"
+    },
+    "ebooks": {
+      "title": "電子書籍"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "必須"
+  }
 }

@@ -1,15 +1,81 @@
 {
-    "subject": "Sua última fatura do {{ educSite }}",
-    "header": "Sua fatura do pedido",
-    "welcome": "Oi",
-    "mainContent": "Um pedido foi criado para você no {{ educSite }}. Sua fatura está abaixo, com um link para fazer o pagamento quando estiver pronto:",
-    "payNow": "Pague por este pedido",
-    "order": "Pedido",
-    "product": "Produto",
-    "quantity": "Quantidade",
-    "price": "Preço",
-    "packageName": "Pacote educacional",
-    "total": "Total",
-    "billingAddress": "Endereço de cobrança",
-    "footer": "Obrigado por usar o"
+  "loginPage": {
+    "login": "Login",
+    "cancel": "Cancelar",
+    "forgotYourSenha": "Esqueceu sua senha?",
+    "resetPassword": "Redefinir senha"
+  },
+  "nav": {
+    "welcome": "Bem-vindo (a)",
+    "signOut": "Sair",
+    "myAccount": "Minha conta",
+    "coursesList": "Lista de Cursos",
+    "updateProfile": "Perfil de atualização"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Obrigatório",
+      "email": "Insira um e-mail válido"
+    },
+    "email": {
+      "label": "E-mail ou nome de usuário",
+      "hint": "Por favor, insira o endereço de e-mail da sua conta"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Por favor, digite a senha da sua conta"
+    }
+  },
+  "profile": {
+    "title": "Alterar Perfil",
+    "updatePassword": "Alterar Senha",
+    "updateYourPassword": "Alterar sua senha",
+    "newPassword": "Nova senha",
+    "oldPassword": "Senha anterior"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Glossário"
+    },
+    "marketWatchBonds": {
+      "title": "Market Watch- Títulos"
+    },
+    "marketWatchCommodities": {
+      "title": "Market Watch - Commodities"
+    },
+    "marketWatchStocks": {
+      "title": "Market Watch- Ações"
+    },
+    "marketWatchCurrencies": {
+      "title": "Market Watch- Moedas"
+    },
+    "videoAcademy": {
+      "title": "Academia de Vídeos"
+    },
+    "calendar": {
+      "title": "Calendário"
+    },
+    "marketNews": {
+      "title": "Notícias do Mercado Financeiro"
+    },
+    "currencyForecast": {
+      "title": "Previsão de Moedas"
+    },
+
+    "educationMaterials": {
+      "title": "Materiais Educacionais"
+    },
+    "marketUpdates": {
+      "title": "Atualizações de Mercado"
+    },
+    "dailySignals": {
+      "title": "Sinais diários"
+    },
+    "ebooks": {
+      "title": "E-books"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Obrigatório"
+  }
 }
