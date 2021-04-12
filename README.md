@@ -1,5 +1,9 @@
 ## How to use?
 
+## Requirements
+
+**Node v15 is required**
+
 ### Import
 
 The import function will be used to generate a file for the translators.
