@@ -1,0 +1,81 @@
+{
+  "loginPage": {
+    "login": "Giriş",
+    "cancel": "Ləğv et",
+    "forgotYourParol": "Parolunuzu unutmusunuz?",
+    "resetPassword": "Parolu yenidən qur"
+  },
+  "nav": {
+    "welcome": "Xoş gəlmisiniz",
+    "signOut": "Çıxış",
+    "myAccount": "Hesabım",
+    "coursesList": "Kurslar Siyahısı",
+    "updateProfile": "Profili Yenilə"
+  },
+  "inputs": {
+    "errors": {
+      "required": "Tələb Olunur",
+      "email": "E-poçt işlək olmalıdır"
+    },
+    "email": {
+      "label": "E-poçt və ya İstifadəçi Adı",
+      "hint": "Lütfən, öz hesab e-poçt ünvanınızı daxil edin"
+    },
+    "password": {
+      "label": "Password",
+      "hint": "Lütfən, öz hesab parolunuzu daxil edin"
+    }
+  },
+  "profile": {
+    "title": "Profili Yenilə",
+    "updatePassword": "Parolu Yenilə",
+    "updateYourPassword": "Parolunuzu yeniləyin",
+    "newPassword": "Yeni Parol",
+    "oldPassword": "Köhnə Parol"
+  },
+  "assets": {
+    "glossary": {
+      "title": "Lüğət"
+    },
+    "marketWatchBonds": {
+      "title": "Bazar Müşahidəsi: İstiqrazlar"
+    },
+    "marketWatchCommodities": {
+      "title": "Bazar Müşahidəsi: Əmtəələr"
+    },
+    "marketWatchStocks": {
+      "title": "Bazar Müşahidəsi: Aksiyalar"
+    },
+    "marketWatchCurrencies": {
+      "title": "Bazar Müşahidəsi: Valyutalar"
+    },
+    "videoAcademy": {
+      "title": "Video Akademiya"
+    },
+    "calendar": {
+      "title": "Təqvim"
+    },
+    "marketNews": {
+      "title": "Bazar Xəbərləri"
+    },
+    "currencyForecast": {
+      "title": "Valyuta Proqnozu"
+    },
+
+    "educationMaterials": {
+      "title": "Təhsil Materialları"
+    },
+    "marketUpdates": {
+      "title": "Bazar Yenilikləri"
+    },
+    "dailySignals": {
+      "title": "Gündəlik Siqnallar"
+    },
+    "ebooks": {
+      "title": "E-kitablar"
+    }
+  },
+  "textFieldsErrors": {
+    "required": "Tələb Olunur"
+  }
+}

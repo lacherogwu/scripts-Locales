@@ -2,7 +2,7 @@
   "loginPage": {
     "login": "تسجيل الدخول",
     "cancel": "إلغاء",
-    "forgotYourPasswort": "هل نسيت كلمة المرور؟",
+    "forgotYourكلمة المرور": "هل نسيت كلمة المرور؟",
     "resetPassword": "إعادة تعيين كلمة المرور"
   },
   "nav": {
