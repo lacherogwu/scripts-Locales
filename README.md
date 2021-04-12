@@ -1,16 +1,20 @@
-# Usage
+## How to use?
 
-## Export
-Copy the data you want to export to ./en.json.
-```
-node export
-```
+### Import
 
-## Import
-* Copy your EN locale json file to ./en.json
-* Create a csv file with all the data same with the format as file-sample.csv and call it "file.csv"
-```
-node .
-```
+The import function will be used to generate a file for the translators.
 
-**Enjoy!**
+Add your ./en.json file and run `npm run import`
+
+It will generate a file called "translations.csv" with the key and the EN value.
+Before sending the file to translators, add in the headers the languages names.
+
+### Export
+
+The export function will be used to generate the locales files
+
+Add the translated file with all the languages to ./file.csv and run `npm run export`
+
+It will generate all the locales files in the ./locales folder
+
+**Enjoy**
