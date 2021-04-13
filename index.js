@@ -49,33 +49,16 @@ const setProp = (obj, key, value) => {
 };
 
 const exportFile = async () => {
-	const extension = 'xlsx';
+	const rows = await readXlsxFile('file.xlsx');
 
-	let file;
-	if (extension === 'xlsx') {
-		const rows = await readXlsxFile('file.xlsx');
-		file = rows.map(i => i.join(','));
-	} else {
-		// csv
-		file = fs.readFileSync('file.csv', 'utf-8').replaceAll('\r', '');
-		file = file.split('\n');
-	}
-
-	const head = file.shift().split(',');
-	const columns = head.length;
+	const head = rows.shift();
 	head.shift();
 
 	const files = {};
 
 	head.forEach((h, index) => {
 		const data = {};
-		file.forEach(item => {
-			item = item.split(',');
-			if (item.length > columns) item = fixComma(item);
-
-			const val = fixText(item[index + 1]);
-			setProp(data, item[0], val);
-		});
+		rows.forEach(item => setProp(data, item[0], item[index + 1]));
 		files[h] = data;
 	});
 
