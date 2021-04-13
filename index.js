@@ -1,4 +1,5 @@
 const fs = require('fs');
+const readXlsxFile = require('read-excel-file/node');
 const en = require('./en.json');
 const headers = ['key', 'EN'];
 
@@ -47,9 +48,18 @@ const setProp = (obj, key, value) => {
 	current[last] = value;
 };
 
-const exportFile = () => {
-	let file = fs.readFileSync('file.csv', 'utf-8').replaceAll('\r', '');
-	file = file.split('\n');
+const exportFile = async () => {
+	const extension = 'xlsx';
+
+	let file;
+	if (extension === 'xlsx') {
+		const rows = await readXlsxFile('file.xlsx');
+		file = rows.map(i => i.join(','));
+	} else {
+		// csv
+		file = fs.readFileSync('file.csv', 'utf-8').replaceAll('\r', '');
+		file = file.split('\n');
+	}
 
 	const head = file.shift().split(',');
 	const columns = head.length;

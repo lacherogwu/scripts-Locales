@@ -2,4 +2,5 @@ node_modules/
 .DS_Store
 locales/
 *.csv
+*.xlsx
 en.json

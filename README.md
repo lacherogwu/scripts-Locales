@@ -17,7 +17,7 @@ Before sending the file to translators, add in the headers the languages names.
 
 The export function will be used to generate the locales files
 
-Add the translated file with all the languages to ./file.csv and run `npm run export`
+Add the translated file with all the languages to ./file.csv or ./file.xlsx and run `npm run export`
 
 It will generate all the locales files in the ./locales folder
 
